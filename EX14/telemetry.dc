@@ -1,0 +1,68 @@
+###################################
+# Read in the verilog files first #
+###################################
+read_file -format sverilog {	./UART_tx.sv \
+				./UART_rcv.sv \
+				./telemetry.sv}
+
+#######################################
+# Set the current Design to top level #
+#######################################
+set current_design telemetry
+
+##############################
+# Constrain and assign clock #
+##############################
+create_clock -name "clk" -period 2 -waveform {0 1} {clk}
+
+set_dont_touch_network [find port clk]
+
+###################################
+# Constrain input timings & Drive #
+###################################
+set prim_inputs [remove_from_collection [all_inputs] [find port clk]]
+set_input_delay -clock clk 0.5 $prim_inputs
+set_driving_cell -lib_cell NAND2X1_RVT -library saed32rvt_tt0p85v25c $prim_inputs
+set_drive 0.1 rst_n
+
+###################################
+# Contrain output timings & loads #
+###################################
+set_output_delay -clock clk 0.75 [all_outputs]
+set_load 0.15 [all_outputs]
+
+##################################
+# Set wireload & transition time #
+##################################
+set_wire_load_model -name 16000 -library saed32rvt_tt0p85v25c
+set_max_transition 0.15 [current_design]
+
+######################
+# Compile the design #
+######################
+compile -map_effort medium
+
+####################
+# Flatten hierachy #
+####################
+ungroup -all -flatten
+
+###############
+# 2nd compile #
+###############
+compile -map_effort medium 
+
+##################################
+# Generate timing & Area & Contraints reports #
+##################################
+report_timing -delay max > max_delay.rpt
+report_timing -delay min > min_delay.rpt
+report_area > telemetry_area.txt
+report_constraint > telemetry.sdc
+
+
+###########################################
+# Write out resulting synthesized netlist #
+###########################################
+write -format verilog telemetry -output telemetry.vg
+	

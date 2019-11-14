@@ -1,0 +1,25 @@
+module shifter_tb();
+
+localparam [15:0] src_test [0:5] = {16'h000d, 16'h00c0, 16'h0a00, 16'h0a00, 16'hc000, 16'hc000};
+localparam [3:0] amt_test [0:5] = {4'd1, 4'd3, 4'd15, 4'd15, 4'd2, 4'd2};
+localparam [0:5] rotate_test  = {1'b0, 1'b0, 1'b0, 1'b1, 1'b0, 1'b1};
+
+reg [15:0] src;
+reg [3:0] amt;
+reg rotate;
+wire [15:0] res;
+
+shfter iDUT(.src(src), .amt(amt), .rotate(rotate), .res(res));
+
+reg [3:0] i;
+initial begin
+	for (i = 0; i < 6; i = i + 1) begin
+		src = src_test[i];
+		amt = amt_test[i];
+		rotate = rotate_test[i];
+		#5;
+	end
+	$stop;		
+end
+
+endmodule

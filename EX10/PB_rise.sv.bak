@@ -1,0 +1,19 @@
+module PB_rise(PB, clk, rst_n, rise)
+
+input PB, clk, rst_n;
+output reg rise;
+
+reg ff0, cur, prev;
+
+always_ff@(posedge clk, negedge rst_n)
+	if (!rst_n) begin
+		ff0 <= 1'b0;
+		cur <= 1'b0;
+		prev <= 1'b0;
+	end else begin
+		ff0 <= PB;
+		cur <= ff0;
+		prev <= cur;
+	end
+assign rise = cur & ~prev;
+endmodule

@@ -1,0 +1,84 @@
+# Reading C:/ProgramData/App-V/2191B702-5279-4048-91BA-BCF8F2A20B49/3C5B5D32-C303-48A2-8738-F357EDE80167/Root/tcl/vsim/pref.tcl
+# //  ModelSim SE 10.3c Jul 19 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile I:/ece551/EX05_shifter/EX05.mpf
+# Loading project EX05
+# Compile of shfter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of shfter.sv was successful.
+# Compile of shifter_tb.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of shfter.sv was successful.
+# Compile of shifter_tb.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of shfter.sv was successful.
+# Compile of shifter_tb.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of shfter.sv was successful.
+# Compile of shifter_tb.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of shfter.sv was successful.
+# Compile of shifter_tb.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of shfter.sv was successful.
+# Compile of shifter_tb.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of shfter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of shfter.sv was successful.
+# Compile of shifter_tb.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of shfter.sv was successful.
+# Compile of shifter_tb.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of shfter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -novopt work.shifter_tb
+# vsim -gui I:\ece551\EX05_shifter\EX05.mpf 
+# Start time: 20:05:16 on Oct 01,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing I:/ece551/EX05_shifter/work.shifter_tb
+# Loading sv_std.std
+# Loading work.shifter_tb
+# Refreshing I:/ece551/EX05_shifter/work.shfter
+# Loading work.shfter
+do I:/ece551/EX05_shifter/shifter_wave.do
+# Compile of shfter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+# ** Note: $stop    : I:/ece551/EX05_shifter/shifter_tb.sv(22)
+#    Time: 20 ns  Iteration: 0  Instance: /shifter_tb
+# Break in Module shifter_tb at I:/ece551/EX05_shifter/shifter_tb.sv line 22
+# Compile of shfter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+# Compile of shfter.sv was successful.
+# Compile of shifter_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing I:/ece551/EX05_shifter/work.shifter_tb
+# Loading sv_std.std
+# Loading work.shifter_tb
+# Refreshing I:/ece551/EX05_shifter/work.shfter
+# Loading work.shfter
+run -all
+# ** Note: $stop    : I:/ece551/EX05_shifter/shifter_tb.sv(22)
+#    Time: 30 ns  Iteration: 0  Instance: /shifter_tb
+# Break in Module shifter_tb at I:/ece551/EX05_shifter/shifter_tb.sv line 22
+# End time: 20:10:55 on Oct 01,2019, Elapsed time: 0:05:39
+# Errors: 0, Warnings: 2

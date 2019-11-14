@@ -1,0 +1,96 @@
+|PWM_test
+clk => clk.IN4
+RST_n => RST_n.IN1
+PB => PB.IN1
+DIP => DIP.IN1
+LED[0] << PWM11:iDUT.PWM_sig
+LED[1] << <GND>
+LED[2] << <GND>
+LED[3] << <GND>
+LED[4] << cnt[0].DB_MAX_OUTPUT_PORT_TYPE
+LED[5] << cnt[1].DB_MAX_OUTPUT_PORT_TYPE
+LED[6] << cnt[2].DB_MAX_OUTPUT_PORT_TYPE
+LED[7] << cnt[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PWM_test|rst_synch:iRST
+RST_n => rst_n~reg0.ACLR
+RST_n => ff0.ACLR
+clk => rst_n~reg0.CLK
+clk => ff0.CLK
+rst_n <= rst_n~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PWM_test|PB_rise:iPB
+PB => ff0.DATAIN
+clk => prev.CLK
+clk => cur.CLK
+clk => ff0.CLK
+rst_n => prev.ACLR
+rst_n => cur.ACLR
+rst_n => ff0.ACLR
+rise <= rise.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PWM_test|up_dwn_cnt4:iCNT
+en => cnt[0]~reg0.ENA
+en => cnt[3]~reg0.ENA
+en => cnt[2]~reg0.ENA
+en => cnt[1]~reg0.ENA
+up => cnt.OUTPUTSELECT
+up => cnt.OUTPUTSELECT
+up => cnt.OUTPUTSELECT
+up => cnt.OUTPUTSELECT
+clk => cnt[0]~reg0.CLK
+clk => cnt[1]~reg0.CLK
+clk => cnt[2]~reg0.CLK
+clk => cnt[3]~reg0.CLK
+rst_n => cnt[0]~reg0.ACLR
+rst_n => cnt[1]~reg0.ACLR
+rst_n => cnt[2]~reg0.ACLR
+rst_n => cnt[3]~reg0.ACLR
+cnt[0] <= cnt[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cnt[1] <= cnt[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cnt[2] <= cnt[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+cnt[3] <= cnt[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|PWM_test|PWM11:iDUT
+clk => PWM_sig~reg0.CLK
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+clk => cnt[3].CLK
+clk => cnt[4].CLK
+clk => cnt[5].CLK
+clk => cnt[6].CLK
+clk => cnt[7].CLK
+clk => cnt[8].CLK
+clk => cnt[9].CLK
+clk => cnt[10].CLK
+rst_n => cnt[0].ACLR
+rst_n => cnt[1].ACLR
+rst_n => cnt[2].ACLR
+rst_n => cnt[3].ACLR
+rst_n => cnt[4].ACLR
+rst_n => cnt[5].ACLR
+rst_n => cnt[6].ACLR
+rst_n => cnt[7].ACLR
+rst_n => cnt[8].ACLR
+rst_n => cnt[9].ACLR
+rst_n => cnt[10].ACLR
+rst_n => PWM_sig~reg0.ACLR
+duty[0] => LessThan0.IN11
+duty[1] => LessThan0.IN10
+duty[2] => LessThan0.IN9
+duty[3] => LessThan0.IN8
+duty[4] => LessThan0.IN7
+duty[5] => LessThan0.IN6
+duty[6] => LessThan0.IN5
+duty[7] => LessThan0.IN4
+duty[8] => LessThan0.IN3
+duty[9] => LessThan0.IN2
+duty[10] => LessThan0.IN1
+PWM_sig <= PWM_sig~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

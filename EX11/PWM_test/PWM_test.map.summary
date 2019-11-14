@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Oct 18 10:29:21 2019
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : PWM_test
+Top-level Entity Name : PWM_test
+Family : Cyclone IV E
+Total logic elements : 25
+    Total combinational functions : 20
+    Dedicated logic registers : 21
+Total registers : 21
+Total pins : 12
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

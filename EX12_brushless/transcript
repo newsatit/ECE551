@@ -1,0 +1,36 @@
+# Compile of brushless.sv was successful.
+# Compile of mtr_drv.sv was successful.
+# Compile of PWM11.sv was successful.
+# Compile of nonoverlap.sv was successful.
+# Compile of brushless_mtr_drv_tb.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -novopt work.brushless_mtr_drv_tb
+# vsim -gui I:\ece551\EX12_brushless\EX12_brushless.mpf 
+# Start time: 00:54:19 on Nov 05,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing I:/ece551/EX12_brushless/work.brushless_mtr_drv_tb
+# Loading sv_std.std
+# Loading work.brushless_mtr_drv_tb
+# Refreshing I:/ece551/EX12_brushless/work.brushless
+# Loading work.brushless
+# Refreshing I:/ece551/EX12_brushless/work.mtr_drv
+# Loading work.mtr_drv
+# Refreshing I:/ece551/EX12_brushless/work.PWM11
+# Loading work.PWM11
+# Refreshing I:/ece551/EX12_brushless/work.nonoverlap
+# Loading work.nonoverlap
+do I:/ece551/EX12_brushless/wave.do
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: satitsumpun  Hostname: WIN-8035  ProcessID: 11708
+# 
+#           Attempting to use alternate WLF file "./wlftzcz72h".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftzcz72h
+# 
+run -all
+# ** Note: $stop    : I:/ece551/EX12_brushless/brushless_mtr_drv_tb.sv(46)
+#    Time: 3066 ns  Iteration: 0  Instance: /brushless_mtr_drv_tb
+# Break in Module brushless_mtr_drv_tb at I:/ece551/EX12_brushless/brushless_mtr_drv_tb.sv line 46

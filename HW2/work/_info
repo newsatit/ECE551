@@ -1,0 +1,138 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dI:/ece551/EX06_desiredDrive
+vcadence_filt
+Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;HSc>E@1606F7onCAJbDe3
+I9:UhYWP6L1Z6]^IJEmkBe0
+!s105 cadence_filt_sv_unit
+S1
+Z2 dI:/ece551/HW2
+w1569992606
+8I:/ece551/HW2/cadence_filt.sv
+FI:/ece551/HW2/cadence_filt.sv
+L0 1
+Z3 OE;L;10.3c;59
+!s108 1569992610.359000
+!s107 I:/ece551/HW2/cadence_filt.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/HW2/cadence_filt.sv|
+!i113 0
+Z4 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vcadence_filt_tb
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 PSKFNH7Wn034V]5FZ84^23
+Il:FTb3R9jcfDIBPg7f_d80
+R2
+w1569990916
+8I:/ece551/HW2/cadence_filt_tb.v
+FI:/ece551/HW2/cadence_filt_tb.v
+L0 1
+R3
+!s108 1569992610.794000
+!s107 I:/ece551/HW2/cadence_filt_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ece551/HW2/cadence_filt_tb.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vDFF
+R0
+!s110 1569983120
+!i10b 1
+!s100 RZFO[V=i8njD5W]Bma6Yd1
+ICJI=GAIETDh18AjO0E@J^2
+R1
+!s105 HW2_prob3_sv_unit
+S1
+R2
+w1569983117
+8I:/ece551/HW2/HW2_prob3.sv
+FI:/ece551/HW2/HW2_prob3.sv
+Z6 L0 22
+R3
+r1
+!s85 0
+31
+!s108 1569983119.877000
+!s107 I:/ece551/HW2/HW2_prob3.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/HW2/HW2_prob3.sv|
+!i113 0
+R4
+n@d@f@f
+vDFF_c
+Z7 !s110 1569992969
+!i10b 1
+!s100 RcSo[9H<TJH>j``J`d8YW1
+Ifac93j42`[8LgEobzfH0@2
+R1
+R2
+Z8 w1569992964
+Z9 8I:\ece551\HW2\HW2_prob3.v
+Z10 FI:\ece551\HW2\HW2_prob3.v
+L0 9
+R3
+r1
+!s85 0
+31
+Z11 !s108 1569992969.060000
+Z12 !s107 I:\ece551\HW2\HW2_prob3.v|
+Z13 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:\ece551\HW2\HW2_prob3.v|
+!i113 0
+R5
+n@d@f@f_c
+vDFF_d
+R7
+!i10b 1
+!s100 mV@U@SL7KUC[o>ASACeGS1
+ITeaZlhNDHk<GJaHSSH^QU3
+R1
+R2
+R8
+R9
+R10
+R6
+R3
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R5
+n@d@f@f_d
+vJKFF_e
+R7
+!i10b 1
+!s100 Yk@C04QRDgTYPgNnLS<A32
+IkmafkS:FR9@iTjTcEM5O`3
+R1
+R2
+R8
+R9
+R10
+L0 34
+R3
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R5
+n@j@k@f@f_e

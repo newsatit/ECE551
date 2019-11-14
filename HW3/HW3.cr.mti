@@ -1,0 +1,29 @@
+I:/ece551/HW3/telemetry.sv {1 {vlog -work work -vopt -sv -stats=none I:/ece551/HW3/telemetry.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module telemetry
+
+Top level modules:
+	telemetry
+
+} {} {}} I:/ece551/HW3/UART_tx.sv {1 {vlog -work work -vopt -sv -stats=none I:/ece551/HW3/UART_tx.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module UART_tx
+
+Top level modules:
+	UART_tx
+
+} {} {}} I:/ece551/HW3/telemetry_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/ece551/HW3/telemetry_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module telemetry_tb
+
+Top level modules:
+	telemetry_tb
+
+} {} {}} I:/ece551/HW3/UART_rcv.sv {1 {vlog -work work -vopt -sv -stats=none I:/ece551/HW3/UART_rcv.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module UART_rcv
+
+Top level modules:
+	UART_rcv
+
+} {} {}}

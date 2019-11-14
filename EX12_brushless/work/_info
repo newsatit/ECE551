@@ -1,0 +1,121 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/ProgramData/App-V/2191B702-5279-4048-91BA-BCF8F2A20B49/3C5B5D32-C303-48A2-8738-F357EDE80167/Root/examples
+vbrushless
+Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+!i10b 1
+!s100 F8gF@78^5bjRC1I>c`SbP1
+IICl3S2^Il_HI??Wh__PX22
+!s105 brushless_sv_unit
+S1
+Z2 dI:/ece551/EX12_brushless
+w1572928858
+8I:/ece551/EX12_brushless/brushless.sv
+FI:/ece551/EX12_brushless/brushless.sv
+L0 1
+Z3 OE;L;10.3c;59
+!s108 1572936101.838000
+!s107 I:/ece551/EX12_brushless/brushless.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/EX12_brushless/brushless.sv|
+!i113 0
+Z4 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vbrushless_mtr_drv_tb
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 PdmE6:6;YZbmd<lEH^jW?1
+IPkFnQ0IYhU6BmbbSJdgFg0
+!s105 brushless_mtr_drv_tb_sv_unit
+S1
+R2
+w1572930068
+8I:/ece551/EX12_brushless/brushless_mtr_drv_tb.sv
+FI:/ece551/EX12_brushless/brushless_mtr_drv_tb.sv
+L0 1
+R3
+!s108 1572936103.400000
+!s107 I:/ece551/EX12_brushless/brushless_mtr_drv_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/EX12_brushless/brushless_mtr_drv_tb.sv|
+!i113 0
+R4
+vmtr_drv
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 MINC@O1I6Mn=[?F7l1?2g2
+IHXb3VPiB:Sm?P3[;>`3HG0
+!s105 mtr_drv_sv_unit
+S1
+R2
+w1572927836
+8I:/ece551/EX12_brushless/mtr_drv.sv
+FI:/ece551/EX12_brushless/mtr_drv.sv
+L0 1
+R3
+!s108 1572936102.275000
+!s107 I:/ece551/EX12_brushless/mtr_drv.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/EX12_brushless/mtr_drv.sv|
+!i113 0
+R4
+vnonoverlap
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 SjIF_^dJG>H2TIQ0zRF=?1
+IB>5Ih_K:9Xof>>;EV`I852
+!s105 nonoverlap_sv_unit
+S1
+R2
+w1571193102
+8I:/ece551/EX08_nonoverlap/nonoverlap.sv
+FI:/ece551/EX08_nonoverlap/nonoverlap.sv
+L0 1
+R3
+!s108 1572936103.025000
+!s107 I:/ece551/EX08_nonoverlap/nonoverlap.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/EX08_nonoverlap/nonoverlap.sv|
+!i113 0
+R4
+vPWM11
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 QA86Zon8z^E;maN4lz<6n3
+If37>UC;TgfAEe8]`5z>LS0
+!s105 PWM11_sv_unit
+S1
+R2
+w1571193421
+8I:/ece551/EX07_HW3.2_PWM/PWM11.sv
+FI:/ece551/EX07_HW3.2_PWM/PWM11.sv
+L0 1
+R3
+!s108 1572936102.650000
+!s107 I:/ece551/EX07_HW3.2_PWM/PWM11.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/EX07_HW3.2_PWM/PWM11.sv|
+!i113 0
+R4
+n@p@w@m11

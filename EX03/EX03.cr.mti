@@ -1,0 +1,22 @@
+I:/ece551/EX03/dff.v {1 {vlog -work work -vopt -stats=none I:/ece551/EX03/dff.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} I:/ece551/EX03/synch_detect.v {1 {vlog -work work -vopt -stats=none I:/ece551/EX03/synch_detect.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module synch_detect
+
+Top level modules:
+	synch_detect
+
+} {} {}} I:/ece551/EX03/synch_detect_tb.v {1 {vlog -work work -vopt -stats=none I:/ece551/EX03/synch_detect_tb.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module synch_detect_tb
+
+Top level modules:
+	synch_detect_tb
+
+} {} {}}

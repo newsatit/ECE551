@@ -1,0 +1,53 @@
+module brushless(clk, drv_mag, hallGrn, hallYlw, hallBlu, brake_n, duty, 
+selGrn, selYlw, selBlu);
+
+input clk, hallGrn, hallYlw, hallBlu, brake_n;
+input [11:0] drv_mag;
+output wire [10:0] duty;
+output reg [1:0] selGrn;
+output reg [1:0] selYlw;
+output reg [1:0] selBlu;
+
+reg [2:0] rotation_state;
+
+// synchronized rotation state
+always@(posedge clk)
+	rotation_state <= {hallGrn, hallYlw, hallBlu};
+
+// duty cycle
+assign duty = (!brake_n) ? 11'h600 : 11'h400 + drv_mag[11:2];
+	
+
+localparam high_z = 2'b00;
+localparam rev_curr = 2'b01;
+localparam for_curr = 2'b10;
+localparam reg_braking = 2'b11;
+// drive coils
+always@(rotation_state, brake_n)
+	if (!brake_n)
+		{selGrn, selYlw, selBlu} = {reg_braking, reg_braking, reg_braking};
+	else	
+		case (rotation_state)
+			3'b101: begin
+				{selGrn, selYlw, selBlu} = {for_curr, rev_curr, high_z};
+			end
+			3'b100: begin
+				{selGrn, selYlw, selBlu} = {for_curr, high_z, rev_curr};
+			end
+			3'b110: begin
+				{selGrn, selYlw, selBlu} = {high_z, for_curr, rev_curr};
+			end
+			3'b010: begin
+				{selGrn, selYlw, selBlu} = {rev_curr, for_curr, high_z};
+			end
+			3'b011: begin
+				{selGrn, selYlw, selBlu} = {rev_curr, high_z, for_curr};
+			end
+			3'b001: begin
+				{selGrn, selYlw, selBlu} = {high_z, rev_curr, for_curr};
+			end
+			default: begin
+				{selGrn, selYlw, selBlu} = {high_z, high_z, high_z};
+			end
+		endcase
+endmodule 

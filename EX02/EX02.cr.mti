@@ -1,0 +1,22 @@
+I:/ece551/EX02/mystery.v {1 {vlog -work work -vopt -stats=none I:/ece551/EX02/mystery.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module mystery
+
+Top level modules:
+	mystery
+
+} {} {}} I:/ece551/EX02/mystery_tb.v {1 {vlog -work work -vopt -stats=none I:/ece551/EX02/mystery_tb.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module mystery_tb
+
+Top level modules:
+	mystery_tb
+
+} {} {}} I:/ece551/EX02/mystery_reset.v {1 {vlog -work work -vopt -stats=none I:/ece551/EX02/mystery_reset.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module mystery_reset
+
+Top level modules:
+	mystery_reset
+
+} {} {}}

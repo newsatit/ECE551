@@ -1,0 +1,15 @@
+I:/ece551/EX05_shifter/shfter.sv {1 {vlog -work work -vopt -sv -stats=none I:/ece551/EX05_shifter/shfter.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module shfter
+
+Top level modules:
+	shfter
+
+} {} {}} I:/ece551/EX05_shifter/shifter_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/ece551/EX05_shifter/shifter_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module shifter_tb
+
+Top level modules:
+	shifter_tb
+
+} {} {}}

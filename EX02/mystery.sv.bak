@@ -1,0 +1,15 @@
+module mystery(clk, d, q);
+
+input clk, d;
+output q;
+
+wire md, mq, sd;
+
+notif1 triOne(d, ~clk, md), triTwo(mq, clk, sd);
+
+not inv1(md, mq), inv2(q, sd);
+not(weak0, weak1) weak_inv1(mq, md), weak_inv2(sd, q);
+
+
+
+endmodule

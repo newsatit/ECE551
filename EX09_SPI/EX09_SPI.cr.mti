@@ -1,0 +1,33 @@
+I:/ece551/EX09_SPI/SPI_mstr.sv {1 {vlog -work work -vopt -sv -stats=none {I:\ece551\EX09_SPI\SPI_mstr.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module SPI_mstr
+
+Top level modules:
+	SPI_mstr
+
+} {} {}} I:/ece551/EX09_SPI/SPI_ADC128S.sv {1 {vlog -work work -vopt -sv -stats=none I:/ece551/EX09_SPI/SPI_ADC128S.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module SPI_ADC128S
+
+Top level modules:
+	SPI_ADC128S
+
+} {} {}} I:/ece551/EX09_SPI/SPI_mstr_tb.sv {2 {vlog -work work -vopt -sv -stats=none {I:\ece551\EX09_SPI\SPI_mstr_tb.sv}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module SPI_mstr_tb
+** Warning: I:\ece551\EX09_SPI\SPI_mstr_tb.sv(62): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+** Warning: I:\ece551\EX09_SPI\SPI_mstr_tb.sv(76): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+
+Top level modules:
+	SPI_mstr_tb
+
+} {} {}} I:/ece551/EX09_SPI/ADC128S.sv {1 {vlog -work work -vopt -sv -stats=none I:/ece551/EX09_SPI/ADC128S.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module ADC128S
+
+Top level modules:
+	ADC128S
+
+} {} {}}

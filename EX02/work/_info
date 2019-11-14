@@ -1,0 +1,129 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/ProgramData/App-V/2191B702-5279-4048-91BA-BCF8F2A20B49/3C5B5D32-C303-48A2-8738-F357EDE80167/Root/examples
+T_opt
+!s110 1568389557
+VNZ9n<mLe@3M0EE8gY=IVk1
+04 10 4 work mystery_tb fast 0
+=1-6c2b59d17c66-5d7bb9b4-208-2528
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OE;O;10.3c;59
+R0
+T_opt1
+!s110 1568390255
+V9V><14TENk8m7Ej0fLz=_2
+04 7 4 work mystery fast 0
+=1-6c2b59d17c66-5d7bbc6f-172-1ec8
+R1
+n@_opt1
+R2
+R0
+vmystery
+!s110 1568818394
+!i10b 1
+!s100 4zAUS5WW?e7hOOE7lAk:>3
+IYGB9E]Y;iW^niE3G2UokP2
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+Z4 dI:/ece551/EX02
+w1568766829
+8I:/ece551/EX02/mystery.v
+FI:/ece551/EX02/mystery.v
+L0 1
+Z5 OE;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1568818394.178000
+!s107 I:/ece551/EX02/mystery.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ece551/EX02/mystery.v|
+!i113 0
+Z6 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vmystery_reset
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 nNmbeo`one7Q5hJ^NB0H53
+Ii1nAJk38LYlAGzKAVNAk^0
+R4
+w1568818316
+8I:/ece551/EX02/mystery_reset.v
+FI:/ece551/EX02/mystery_reset.v
+L0 1
+R5
+!s108 1568818395.015000
+!s107 I:/ece551/EX02/mystery_reset.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ece551/EX02/mystery_reset.v|
+!i113 0
+R6
+vmystery_reset_tb
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 Vg7QG51_TgSmALoeSQcRh2
+IJ=icFlhkZ4?hDm2Wk;cWQ2
+R4
+w1568818391
+8I:/ece551/EX02/mystery_reset_tb.v
+FI:/ece551/EX02/mystery_reset_tb.v
+L0 1
+R5
+!s108 1568818394.569000
+!s107 I:/ece551/EX02/mystery_reset_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ece551/EX02/mystery_reset_tb.v|
+!i113 0
+R6
+Xmystery_sv_unit
+DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+!s110 1568389041
+!i10b 1
+!s100 4lNL>I22dTKk6SD[eVj9o0
+IBYOU7V;]=H]iFAIz>YB7[3
+VBYOU7V;]=H]iFAIz>YB7[3
+!i103 1
+S1
+R4
+w1568389037
+8I:\ece551\EX02\mystery.sv
+FI:\ece551\EX02\mystery.sv
+L0 15
+R5
+r1
+!s85 0
+31
+!s108 1568389041.318000
+!s107 I:\ece551\EX02\mystery.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:\ece551\EX02\mystery.sv|
+!i113 0
+o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vmystery_tb
+!s110 1568818393
+!i10b 1
+!s100 n<WV3aBU0AKDCH4Hi<zf^1
+IDI_?31I4<oJUM2nfI7WJi2
+R3
+R4
+w1568766832
+8I:/ece551/EX02/mystery_tb.v
+FI:/ece551/EX02/mystery_tb.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1568818393.779000
+!s107 I:/ece551/EX02/mystery_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|I:/ece551/EX02/mystery_tb.v|
+!i113 0
+R6

@@ -1,0 +1,100 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dI:/ece551/HW3
+vtelemetry
+Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+!i10b 1
+!s100 Q3e@ELO38h[<CNV^h8Uof2
+I=HEkV1<ADTLbHYT^T^c6d0
+!s105 telemetry_sv_unit
+S1
+Z2 dI:/ece551/HW5/Q1
+w1572445376
+8I:/ece551/HW5/Q1/telemetry.sv
+FI:/ece551/HW5/Q1/telemetry.sv
+L0 1
+Z3 OE;L;10.3c;59
+!s108 1573773946.067000
+!s107 I:/ece551/HW5/Q1/telemetry.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/HW5/Q1/telemetry.sv|
+!i113 0
+Z4 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vtelemetry_tb
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 G>`MbQne>LmBL2=NLjSDg2
+IU[]Mb2NZ>EzDZDZ`FhRE<2
+!s105 telemetry_tb_sv_unit
+S1
+R2
+w1571209098
+8I:/ece551/HW5/Q1/telemetry_tb.sv
+FI:/ece551/HW5/Q1/telemetry_tb.sv
+L0 1
+R3
+!s108 1573773946.575000
+!s107 I:/ece551/HW5/Q1/telemetry_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/HW5/Q1/telemetry_tb.sv|
+!i113 0
+R4
+vUART_rcv
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 l4hg;1<DZdKhEEH70oTAc2
+IBNJK`Q[:oA@Qk5=Fdha172
+!s105 UART_rcv_sv_unit
+S1
+R2
+w1571206394
+8I:/ece551/HW5/Q1/UART_rcv.sv
+FI:/ece551/HW5/Q1/UART_rcv.sv
+L0 1
+R3
+!s108 1573773947.050000
+!s107 I:/ece551/HW5/Q1/UART_rcv.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/HW5/Q1/UART_rcv.sv|
+!i113 0
+R4
+n@u@a@r@t_rcv
+vUART_tx
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ZRPC>[[NOMbkSFiQdOS0?0
+I0dTozKXSTY0T7f3kL73_m0
+!s105 UART_tx_sv_unit
+S1
+R2
+w1571206393
+8I:/ece551/HW5/Q1/UART_tx.sv
+FI:/ece551/HW5/Q1/UART_tx.sv
+L0 1
+R3
+!s108 1573773945.596000
+!s107 I:/ece551/HW5/Q1/UART_tx.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/HW5/Q1/UART_tx.sv|
+!i113 0
+R4
+n@u@a@r@t_tx

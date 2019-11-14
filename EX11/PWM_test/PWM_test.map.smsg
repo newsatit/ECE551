@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at rst_synch.sv(3): object "RST_n" differs only in case from object "rst_n" in the same scope File: I:/ece551/EX11/PWM_test/rst_synch.sv Line: 3
+Info (10281): Verilog HDL Declaration information at PWM_test.sv(4): object "RST_n" differs only in case from object "rst_n" in the same scope File: I:/ece551/EX11/PWM_test/PWM_test.sv Line: 4

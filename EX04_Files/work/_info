@@ -1,0 +1,78 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dI:/ece551/EX02
+vPID
+Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+!i10b 1
+!s100 WP2bWP=dk^601JfK^QLFg3
+Ie9RKlAg:7:1X1d8<Z?Qbb1
+!s105 PID_cntrl_sv_unit
+S1
+Z2 dI:/ece551/EX04_Files
+w1568821524
+8I:/ece551/EX04_Files/PID_cntrl.sv
+FI:/ece551/EX04_Files/PID_cntrl.sv
+L0 1
+Z3 OE;L;10.3c;59
+!s108 1568821527.327000
+!s107 I:/ece551/EX04_Files/PID_cntrl.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/EX04_Files/PID_cntrl.sv|
+!i113 0
+Z4 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@p@i@d
+vPID_cntrl_tb
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 QglCFz:i5`jiA3]bgAdH:3
+ILNYLL>EB<NANF:czhnRb50
+!s105 PID_cntrl_tb_sv_unit
+S1
+R2
+w1562615960
+8I:/ece551/EX04_Files/PID_cntrl_tb.sv
+FI:/ece551/EX04_Files/PID_cntrl_tb.sv
+L0 1
+R3
+!s108 1568819673.228000
+!s107 I:/ece551/EX04_Files/PID_cntrl_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/EX04_Files/PID_cntrl_tb.sv|
+!i113 0
+R4
+n@p@i@d_cntrl_tb
+vplant
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 MY_aRNWYU[n73`;TR?7jk2
+I5=HhCS44QEPbb4Dg6cAJh1
+!s105 plant_sv_unit
+S1
+R2
+w1562616072
+8I:/ece551/EX04_Files/plant.sv
+FI:/ece551/EX04_Files/plant.sv
+L0 1
+R3
+!s108 1568819672.206000
+!s107 I:/ece551/EX04_Files/plant.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/EX04_Files/plant.sv|
+!i113 0
+R4

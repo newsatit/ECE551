@@ -1,0 +1,90 @@
+# Compile of UART_tx.sv was successful.
+# Compile of UART_rcv.sv was successful.
+# Compile of telemetry_tb.sv was successful.
+# 3 compiles, 1 failed with no errors.
+# Compile of UART_tx.sv was successful.
+# Compile of UART_rcv.sv was successful.
+# Compile of telemetry_tb.sv was successful.
+# 3 compiles, 1 failed with no errors.
+# Compile of UART_tx.sv was successful.
+# Compile of telemetry.sv was successful.
+# Compile of UART_rcv.sv was successful.
+# Compile of telemetry_tb.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -novopt work.telemetry_tb
+# vsim -gui I:\ece551\HW3\HW3.mpf 
+# Start time: 17:16:48 on Nov 14,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Refreshing I:/ece551/HW3/work.telemetry_tb
+# Loading sv_std.std
+# Loading work.telemetry_tb
+# Refreshing I:/ece551/HW3/work.telemetry
+# Loading work.telemetry
+# Refreshing I:/ece551/HW3/work.UART_tx
+# Loading work.UART_tx
+# Refreshing I:/ece551/HW3/work.UART_rcv
+# Loading work.UART_rcv
+add wave -position insertpoint sim:/telemetry_tb/*
+run -all
+# delim1 is received correctly
+# delim2 is received correctly
+# payload1 is received correctly
+# payload2 is received correctly
+# payload3 is received correctly
+# payload4 is received correctly
+# payload6 is received correctly
+# delim1 is received correctly
+# Tests passed!!!
+# ** Note: $stop    : I:/ece551/HW3/telemetry_tb.sv(107)
+#    Time: 10527155 ns  Iteration: 2  Instance: /telemetry_tb
+# Break in Module telemetry_tb at I:/ece551/HW3/telemetry_tb.sv line 107
+# Causality operation skipped due to absence of debug database file
+restart
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading sv_std.std
+# Loading work.telemetry_tb
+# Loading work.telemetry
+# Loading work.UART_tx
+# Loading work.UART_rcv
+run -all
+# delim1 is received correctly
+# delim2 is received correctly
+# payload1 is received correctly
+# payload2 is received correctly
+# payload3 is received correctly
+# payload4 is received correctly
+# payload6 is received correctly
+# delim1 is received correctly
+# Tests passed!!!
+# ** Note: $stop    : I:/ece551/HW3/telemetry_tb.sv(107)
+#    Time: 10527155 ns  Iteration: 2  Instance: /telemetry_tb
+# Break in Module telemetry_tb at I:/ece551/HW3/telemetry_tb.sv line 107
+quit -sim
+vsim -novopt work.telemetry_tb
+# vsim 
+# Start time: 17:23:18 on Nov 14,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading sv_std.std
+# Loading work.telemetry_tb
+# Loading work.telemetry
+# Loading work.UART_tx
+# Loading work.UART_rcv
+add wave -position insertpoint sim:/telemetry_tb/*
+run -all
+# delim1 is received correctly
+# delim2 is received correctly
+# payload1 is received correctly
+# payload2 is received correctly
+# payload3 is received correctly
+# payload4 is received correctly
+# payload6 is received correctly
+# delim1 is received correctly
+# Tests passed!!!
+# ** Note: $stop    : I:/ece551/HW3/telemetry_tb.sv(107)
+#    Time: 10527155 ns  Iteration: 2  Instance: /telemetry_tb
+# Break in Module telemetry_tb at I:/ece551/HW3/telemetry_tb.sv line 107
+# End time: 17:24:37 on Nov 14,2019, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 1

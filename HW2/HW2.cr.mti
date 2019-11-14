@@ -1,0 +1,26 @@
+I:/ece551/HW2/cadence_filt.sv {1 {vlog -work work -vopt -sv -stats=none I:/ece551/HW2/cadence_filt.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module cadence_filt
+
+Top level modules:
+	cadence_filt
+
+} {} {}} I:/ece551/HW2/HW2_prob3.v {1 {vlog -work work -vopt -stats=none {I:\ece551\HW2\HW2_prob3.v}
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module DFF_c
+-- Compiling module DFF_d
+-- Compiling module JKFF_e
+
+Top level modules:
+	DFF_c
+	DFF_d
+	JKFF_e
+
+} {} {}} I:/ece551/HW2/cadence_filt_tb.v {1 {vlog -work work -vopt -stats=none I:/ece551/HW2/cadence_filt_tb.v
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module cadence_filt_tb
+
+Top level modules:
+	cadence_filt_tb
+
+} {} {}}

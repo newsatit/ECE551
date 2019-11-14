@@ -1,0 +1,112 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/ProgramData/App-V/2191B702-5279-4048-91BA-BCF8F2A20B49/3C5B5D32-C303-48A2-8738-F357EDE80167/Root/examples
+T_opt
+!s110 1571068256
+V^07TLR1=F;ok=Flb>m=`I1
+04 11 4 work SPI_mstr_tb fast 0
+=1-6c2b59d17c66-5da4995f-2fd-23fc
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OE;O;10.3c;59
+R0
+vADC128S
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+!i10b 1
+!s100 [k^KkS=WR]3^9mKlNTCX31
+IHCj083]X4O6gJ7eKj[2FC3
+!s105 ADC128S_sv_unit
+S1
+Z3 dI:/ece551/EX09_SPI
+w1571066075
+8I:/ece551/EX09_SPI/ADC128S.sv
+FI:/ece551/EX09_SPI/ADC128S.sv
+L0 1
+Z4 OE;L;10.3c;59
+!s108 1571197705.763000
+!s107 I:/ece551/EX09_SPI/ADC128S.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/EX09_SPI/ADC128S.sv|
+!i113 0
+Z5 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+n@a@d@c128@s
+vSPI_ADC128S
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 FMj[4W2=9oUfTJcKEmN2N0
+Id^Tk;>d:ojmWc7oSfcS`i1
+!s105 SPI_ADC128S_sv_unit
+S1
+R3
+w1571066073
+8I:/ece551/EX09_SPI/SPI_ADC128S.sv
+FI:/ece551/EX09_SPI/SPI_ADC128S.sv
+L0 1
+R4
+!s108 1571197704.392000
+!s107 I:/ece551/EX09_SPI/SPI_ADC128S.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/EX09_SPI/SPI_ADC128S.sv|
+!i113 0
+R5
+n@s@p@i_@a@d@c128@s
+vSPI_mstr
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 KPO8f7n<mmAG;LAgSHm861
+IA_NSX8NNY_3@0HHMg0O6Y1
+!s105 SPI_mstr_sv_unit
+S1
+R3
+w1571106172
+8I:\ece551\EX09_SPI\SPI_mstr.sv
+FI:\ece551\EX09_SPI\SPI_mstr.sv
+L0 2
+R4
+!s108 1571197704.874000
+!s107 I:\ece551\EX09_SPI\SPI_mstr.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:\ece551\EX09_SPI\SPI_mstr.sv|
+!i113 0
+R5
+n@s@p@i_mstr
+vSPI_mstr_tb
+R1
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 U8R7Ie8Ro6=2FHgc0VLHa2
+I?OK`lDd0bmMWk0ZG?E_Eg3
+!s105 SPI_mstr_tb_sv_unit
+S1
+R3
+w1571197769
+8I:\ece551\EX09_SPI\SPI_mstr_tb.sv
+FI:\ece551\EX09_SPI\SPI_mstr_tb.sv
+L0 1
+R4
+!s108 1571197796.484000
+!s107 I:\ece551\EX09_SPI\SPI_mstr_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:\ece551\EX09_SPI\SPI_mstr_tb.sv|
+!i113 0
+R5
+n@s@p@i_mstr_tb

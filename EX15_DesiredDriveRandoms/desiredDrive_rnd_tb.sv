@@ -1,0 +1,35 @@
+module desiredDrive_tb();
+
+
+reg [32:0] stim [0:999];
+reg [11:0] resp [0:999];
+
+reg [11:0] avg_torque;
+reg [4:0] cadence_vec; 
+reg [12:0] incline;
+reg [1:0] setting;
+wire [11:0] target_curr;
+
+reg [9:0] i;
+
+desiredDrive iDUT(.avg_torque(avg_torque), .cadence_vec(cadence_vec), .incline(incline), .setting(setting), .target_curr(target_curr));
+initial begin
+	$readmemh("desiredDrive_stim.hex", stim);
+	$readmemh("desiredDrive_resp.hex", resp);
+	for (i = 0; i < 1000; i = i + 1) begin	
+		avg_torque = stim[i][32:21];
+		cadence_vec = stim[i][20:16];
+		incline = stim[i][15:2];
+		setting = stim[i][1:0];
+		#1;
+		if (target_curr != resp[i]) begin
+			$display("Test %d failed expected: %h, actual: %h", i+1, resp[i], target_curr);
+			$stop();
+		end
+		$display("Test %d passed expected: %h, actual: %h", i+1, resp[i], target_curr);
+		
+	end
+	$display("Tests Passed!!!");
+end
+
+endmodule

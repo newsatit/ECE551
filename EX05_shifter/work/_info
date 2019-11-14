@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/ProgramData/App-V/2191B702-5279-4048-91BA-BCF8F2A20B49/3C5B5D32-C303-48A2-8738-F357EDE80167/Root/examples
+vshfter
+Z0 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+r1
+!s85 0
+31
+!i10b 1
+!s100 1hNN;WToVRkHdT^Xk942Z0
+IacG15ICHU>MSWXlc7;GKN2
+!s105 shfter_sv_unit
+S1
+Z2 dI:/ece551/EX05_shifter
+w1569885343
+8I:/ece551/EX05_shifter/shfter.sv
+FI:/ece551/EX05_shifter/shfter.sv
+L0 1
+Z3 OE;L;10.3c;59
+!s108 1569978396.081000
+!s107 I:/ece551/EX05_shifter/shfter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/EX05_shifter/shfter.sv|
+!i113 0
+Z4 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vshifter_tb
+R0
+R1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ;bG8eGK;<V2iae`Sh?jo^3
+I_F17j@lNo:WVUH>:7Pb@n0
+!s105 shifter_tb_sv_unit
+S1
+R2
+w1569978370
+8I:/ece551/EX05_shifter/shifter_tb.sv
+FI:/ece551/EX05_shifter/shifter_tb.sv
+L0 1
+R3
+!s108 1569978396.547000
+!s107 I:/ece551/EX05_shifter/shifter_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|I:/ece551/EX05_shifter/shifter_tb.sv|
+!i113 0
+R4

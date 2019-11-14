@@ -1,0 +1,23 @@
+module incline_sat_tb();
+
+localparam [12:0] incline_stim [0:1] = {13'd400, -13'd4096};
+localparam [9:0] incline_sat_expected [0:1] = {9'd400, -13'd4096};
+
+input reg [12:0] incline;
+output wire [9:0] incline_sat;
+incline_sat iDUT(incline, incline_sat);
+
+
+reg[1:0] i;
+initial begin
+	for (i = 0; i < 2; i = i + 1) begin
+		incline = incline_stim;
+		if (incline_sat != incline_sat_expected[i]) begin
+			$display("Test failed input: %d, output: %d, expected: %d", incline, incline_sat, incline_sat_expected[i]);
+			$stop();
+		end
+	end
+	$display("Test Passed!!!");
+end
+
+endmodule

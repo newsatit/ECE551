@@ -1,0 +1,15 @@
+I:/ece551/EX08_nonoverlap/nonoverlap_tb.sv {1 {vlog -work work -vopt -sv -stats=none I:/ece551/EX08_nonoverlap/nonoverlap_tb.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module nonoverlap_tb
+
+Top level modules:
+	nonoverlap_tb
+
+} {} {}} I:/ece551/EX08_nonoverlap/nonoverlap.sv {1 {vlog -work work -vopt -sv -stats=none I:/ece551/EX08_nonoverlap/nonoverlap.sv
+Model Technology ModelSim SE vlog 10.3c Compiler 2014.07 Jul 19 2014
+-- Compiling module nonoverlap
+
+Top level modules:
+	nonoverlap
+
+} {} {}}

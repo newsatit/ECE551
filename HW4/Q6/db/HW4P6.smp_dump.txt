@@ -1,0 +1,14 @@
+
+State Machine - |HW4P6|throttle:iSPD|n003
+Name n003.AAAD n003.AAAC n003.AAAB n003.AAAA 
+n003.AAAA 0 0 0 0 
+n003.AAAB 0 0 1 1 
+n003.AAAC 0 1 0 1 
+n003.AAAD 1 0 0 1 
+
+State Machine - |HW4P6|throttle:iSPD|n001
+Name n001.AAD n001.AAC n001.AAB n001.AAA 
+n001.AAA 0 0 0 0 
+n001.AAB 0 0 1 1 
+n001.AAC 0 1 0 1 
+n001.AAD 1 0 0 1 

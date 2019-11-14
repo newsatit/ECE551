@@ -1,0 +1,212 @@
+m255
+K4
+z2
+!s11f vlog 2019.2 2019.04, Apr 16 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/filespace/s/satitsumpun/ece551/modelsim/tutorial
+vBusInt
+Z1 !s110 1568164580
+!i10b 1
+!s100 WDlVMUnlSjfZ`obLUVDUj2
+!s11b MPziA6k[o`1_cN1@7Jbeh0
+I9A;7@3F18Oj=J1KVee=4T3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1568159209
+8/filespace/s/satitsumpun/ece551/modelsim/tutorial/busint.v
+F/filespace/s/satitsumpun/ece551/modelsim/tutorial/busint.v
+L0 9
+Z4 OP;L;2019.2;69
+r1
+!s85 0
+31
+Z5 !s108 1568164580.000000
+!s107 /filespace/s/satitsumpun/ece551/modelsim/tutorial/busint.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/s/satitsumpun/ece551/modelsim/tutorial/busint.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@bus@int
+vmux
+R1
+!i10b 1
+!s100 QAnOLYhdgbzdeNn^NF1@61
+!s11b 1E@D[IiOOk;1[^8HH:2FU0
+IahHEFPZJ[a2l^h6FAfc[k0
+R2
+R0
+R3
+8/filespace/s/satitsumpun/ece551/modelsim/tutorial/mux.v
+F/filespace/s/satitsumpun/ece551/modelsim/tutorial/mux.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 /filespace/s/satitsumpun/ece551/modelsim/tutorial/mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/s/satitsumpun/ece551/modelsim/tutorial/mux.v|
+!i113 1
+R6
+R7
+vReceive
+R1
+!i10b 1
+!s100 PCb=Yg1XS8``9c[]nZK?f0
+!s11b dAoiIKMg[@<[M5AQ=n?MY3
+IKL7oX56<4b1gYdmSR?4Wm2
+R2
+R0
+R3
+8/filespace/s/satitsumpun/ece551/modelsim/tutorial/receive.v
+F/filespace/s/satitsumpun/ece551/modelsim/tutorial/receive.v
+L0 12
+R4
+r1
+!s85 0
+31
+R5
+!s107 /filespace/s/satitsumpun/ece551/modelsim/tutorial/receive.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/s/satitsumpun/ece551/modelsim/tutorial/receive.v|
+!i113 1
+R6
+R7
+n@receive
+vssp
+Z8 !s110 1568164581
+!i10b 1
+!s100 knFhSGVBJ;Olh=0[ecE:l1
+!s11b a:KzX3QBg]SScd<Y6mjlD1
+ISmzaHlWaZOJTe>N]]ZXD61
+R2
+R0
+R3
+8/filespace/s/satitsumpun/ece551/modelsim/tutorial/ssp.v
+F/filespace/s/satitsumpun/ece551/modelsim/tutorial/ssp.v
+L0 8
+R4
+r1
+!s85 0
+31
+R5
+!s107 /filespace/s/satitsumpun/ece551/modelsim/tutorial/ssp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/s/satitsumpun/ece551/modelsim/tutorial/ssp.v|
+!i113 1
+R6
+R7
+vt_errors
+R8
+!i10b 1
+!s100 V44<T@JBSb<WnHYUMNViz1
+!s11b lN<LS9DJbhLFa>HhRgL0e3
+IAKl`2JTlDH4gl>1OO=D:13
+R2
+R0
+R3
+8/filespace/s/satitsumpun/ece551/modelsim/tutorial/t_errors.v
+F/filespace/s/satitsumpun/ece551/modelsim/tutorial/t_errors.v
+L0 2
+R4
+r1
+!s85 0
+31
+Z9 !s108 1568164581.000000
+!s107 /filespace/s/satitsumpun/ece551/modelsim/tutorial/t_errors.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/s/satitsumpun/ece551/modelsim/tutorial/t_errors.v|
+!i113 1
+R6
+R7
+vt_receive
+R8
+!i10b 1
+!s100 9mLzz=z20a6`1BYahSEVA3
+!s11b gDLa6c7R9GmaJQk5UbEb92
+I4^goeaPUIoQE7mSBDE3[R0
+R2
+R0
+R3
+8/filespace/s/satitsumpun/ece551/modelsim/tutorial/t_receive.v
+F/filespace/s/satitsumpun/ece551/modelsim/tutorial/t_receive.v
+L0 10
+R4
+r1
+!s85 0
+31
+R9
+!s107 /filespace/s/satitsumpun/ece551/modelsim/tutorial/t_receive.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/s/satitsumpun/ece551/modelsim/tutorial/t_receive.v|
+!i113 1
+R6
+R7
+vt_ssp
+R8
+!i10b 1
+!s100 aG5BY]I0dZCPFl:<ECH?f3
+!s11b TmeMQcig6eJdW@5WRUW]B0
+I7`6@5NDcL>n;XHQfmIY023
+R2
+R0
+R3
+8/filespace/s/satitsumpun/ece551/modelsim/tutorial/t_ssp.v
+F/filespace/s/satitsumpun/ece551/modelsim/tutorial/t_ssp.v
+L0 8
+R4
+r1
+!s85 0
+31
+R9
+!s107 /filespace/s/satitsumpun/ece551/modelsim/tutorial/t_ssp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/s/satitsumpun/ece551/modelsim/tutorial/t_ssp.v|
+!i113 1
+R6
+R7
+vt_transmit
+R8
+!i10b 1
+!s100 ZzP_zmO7ET[De^6GEESC43
+!s11b _n23CdhfGQF<VkTWROO9U2
+I;965KZZ8BU@WUBh@gfW;<1
+R2
+R0
+R3
+8/filespace/s/satitsumpun/ece551/modelsim/tutorial/t_transmit.v
+F/filespace/s/satitsumpun/ece551/modelsim/tutorial/t_transmit.v
+L0 13
+R4
+r1
+!s85 0
+31
+R9
+!s107 /filespace/s/satitsumpun/ece551/modelsim/tutorial/t_transmit.v|
+!s90 -reportprogress|300|-work|work|-cover|sbcet3|-stats=none|/filespace/s/satitsumpun/ece551/modelsim/tutorial/t_transmit.v|
+!i113 1
+!s102 -cover sbcet3
+o-work work -cover sbcet3
+R7
+vtransmit
+R8
+!i10b 1
+!s100 iCSlA>21J>[Kn1en@bB>d0
+!s11b CTJAZJYUo90<X]i>CD<M71
+I1l4]`K?mPQAL:bNNUHc:G3
+R2
+R0
+R3
+8/filespace/s/satitsumpun/ece551/modelsim/tutorial/transmit.v
+F/filespace/s/satitsumpun/ece551/modelsim/tutorial/transmit.v
+L0 9
+R4
+r1
+!s85 0
+31
+R9
+!s107 /filespace/s/satitsumpun/ece551/modelsim/tutorial/transmit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/filespace/s/satitsumpun/ece551/modelsim/tutorial/transmit.v|
+!i113 1
+R6
+R7

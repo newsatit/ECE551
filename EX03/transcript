@@ -1,0 +1,29 @@
+# Reading C:/ProgramData/App-V/2191B702-5279-4048-91BA-BCF8F2A20B49/3C5B5D32-C303-48A2-8738-F357EDE80167/Root/tcl/vsim/pref.tcl
+# //  ModelSim SE 10.3c Jul 19 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile I:/ece551/EX03/EX03.mpf
+# Loading project EX03
+vsim -novopt work.synch_detect_tb
+# vsim -gui I:\ece551\EX03\EX03.mpf 
+# Start time: 18:24:05 on Sep 17,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading work.synch_detect_tb
+# Loading work.synch_detect
+# Loading work.dff
+add wave -position insertpoint sim:/synch_detect_tb/*
+run -all
+# YAHOO!! test passed!
+# 
+# ** Note: $stop    : I:/ece551/EX03/synch_detect_tb.v(42)
+#    Time: 191 ns  Iteration: 0  Instance: /synch_detect_tb
+# Break in Module synch_detect_tb at I:/ece551/EX03/synch_detect_tb.v line 42
+# End time: 18:29:09 on Sep 17,2019, Elapsed time: 0:05:04
+# Errors: 0, Warnings: 1

@@ -1,0 +1,24 @@
+vsim -novopt work.mystery_reset_tb
+# vsim -gui I:\ece551\EX02\EX02.mpf 
+# Start time: 09:59:38 on Sep 20,2019
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# 
+# Loading work.mystery_reset_tb
+# Loading work.mystery_reset
+add wave -position insertpoint sim:/mystery_reset_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: satitsumpun  Hostname: WIN-1035  ProcessID: 2380
+# 
+#           Attempting to use alternate WLF file "./wlft42x68y".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft42x68y
+# 
+run -all
+# Test passed!
+# ** Note: $stop    : I:/ece551/EX02/mystery_reset_tb.v(42)
+#    Time: 26 ns  Iteration: 0  Instance: /mystery_reset_tb
+# Break in Module mystery_reset_tb at I:/ece551/EX02/mystery_reset_tb.v line 42
+# End time: 10:32:10 on Sep 20,2019, Elapsed time: 0:32:32
+# Errors: 0, Warnings: 3
